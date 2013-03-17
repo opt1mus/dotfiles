@@ -1,0 +1,46 @@
+*saveLines:    2000
+*scrollBar:    false
+
+*color0:     #1e2320
+*color1:     #705050
+*color2:     #60b48a
+*color3:     #dfaf8f
+*color4:     #506070
+*color5:     #dc8cc3
+*color6:     #8cd0d3
+*color7:     #dcdccc
+*color8:     #709080
+*color9:     #dca3a3
+*color10:    #c3bf9f
+*color11:    #f0dfaf
+*color12:    #94bff3
+*color13:    #ec93d3
+*color14:    #93e0e3
+*color15:    #ffffff
+
+*colorUL:            #c5f779
+*background:         #101010
+*foreground:         #f4d49a
+*underlineColor:     #c5f779
+*cursorColor:        #285577
+*highlightColor:     #285577
+*highlightTextColor: #888888
+
+!URxvt.font:     -misc-tamsyn-medium-r-normal--9-65-100-100-c-50-iso8859-1
+!URxvt.boldfont: -misc-tamsyn-bold-r-normal--9-65-100-100-c-50-iso8859-1
+URxvt.font:     -misc-tamsyn-medium-r-normal--12-87-100-100-c-60-iso8859-1
+URxvt.boldfont: -misc-tamsyn-bold-r-normal--12-87-100-100-c-60-iso8859-1
+
+
+! -- word skip
+URxvt.keysym.Control-Up:      \033[1;5A
+URxvt.keysym.Control-Down:    \033[1;5B
+URxvt.keysym.Control-Right:   \033[1;5C
+URxvt.keysym.Control-Left:    \033[1;5D
+
+! -- url / text selection
+URxvt.perl-ext-common:        default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher:    luakit
+URxvt.url-select.underline:   true
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.keysym.M-Escape:  perl:keyboard-select:activate
