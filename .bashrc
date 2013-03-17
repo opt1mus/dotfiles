@@ -23,7 +23,7 @@ alias mv='mv -i'
 export EDITOR='vim'
 export PAGER='less'
 export HISTCONTROL='ignoreboth'
-export HISTIGNORE='clear:dmesg:exit:history:htop:la:ls:pwd:'
+export HISTIGNORE='clear:exit:history:top:la:ll:ls:'
 export HISTSIZE='120'
 
 # prompt KISS
