@@ -1,0 +1,13 @@
+min_peers = 40
+max_peers = 100
+
+download_rate = 800
+upload_rate = 100
+
+directory = ~/downloads
+
+session = ~/.session
+
+encryption = require_RC4
+
+dht = auto
