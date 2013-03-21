@@ -1,2 +1,1 @@
-# opt1mus
-Arch Linux with Xmonad
+## Arch Linux with XMonad
