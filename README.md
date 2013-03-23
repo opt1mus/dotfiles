@@ -1,4 +1,4 @@
 ## Arch Linux with XMonad
 
-Systemd-analyze plot:
-![systemd-analyze](http://ompldr.org/vaHUzZg)
+### Typical desktop:
+![systemd-analyze](http://ompldr.org/vaHV5YQ)
