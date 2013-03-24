@@ -22,9 +22,12 @@ alias mv='mv -i'
 # variable
 export EDITOR='vim'
 export PAGER='less'
-export HISTCONTROL='ignoreboth'
-export HISTIGNORE='clear:exit:history:top:la:ll:ls:'
-export HISTSIZE='120'
+export HISTCONTROL='ignoreboth:erasedups'
+export HISTIGNORE='cd *:&:exit:history:l[asl]'
+export HISTSIZE='100'
+
+# misc
+stty -ctlecho
 
 # prompt KISS
 PS1='>'
