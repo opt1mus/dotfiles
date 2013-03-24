@@ -1,31 +1,31 @@
-! Black
+! -- Black
 *color0:        #1E2320
 *color8:        #709080
 
-! Red
+! -- Red
 *color1:        #705050
-.color9:        #dca3a3
+*color9:        #dca3a3
 
-! Green
+! -- Green
 *color2:        #60b48a
 *color10:       #c3bf9f
 
-! Yellow
+! -- Yellow
 *color3:        #dfaf8f
 *color11:       #f0dfaf
 
-! Blue
+! -- Blue
 *color4:        #506070
 *color12:       #94bff3
 
-! Magenta
+! -- Magenta
 *color5:        #dc8cc3
 *color13:       #ec93d3
 
-! Cyan
+! -- Cyan
 *color6:        #8cd0d3
 *color14:       #93e0e3
 
-! White
+! -- White
 *color7:        #dcdccc
 *color15:       #ffffff
