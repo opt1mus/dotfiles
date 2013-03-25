@@ -33,8 +33,8 @@ stty -ctlecho
 PS1='>'
 PS2='\\'
 
+# external IP
+myip() { curl -s http://ifconfig.me/ ;}
+
 # sprunge
-function sprunge ()
-{
-	$@ | curl -F 'sprunge=<-' sprunge.us
-}
+sprunge() { curl -F 'sprunge=<-' sprunge.us < $@ ;}
