@@ -37,4 +37,4 @@ PS2='\\'
 myip() { curl -s http://ifconfig.me/ ;}
 
 # sprunge
-sprunge() { curl -F 'sprunge=<-' sprunge.us < $@ ;}
+sprunge() { $@ | curl -F 'sprunge=<-' sprunge.us ;}
