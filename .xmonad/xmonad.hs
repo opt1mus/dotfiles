@@ -44,23 +44,23 @@ myLayout = avoidStruts (
 
 -- general theme
 myNormalBorderColor  = "#000000"
-myFocusedBorderColor = "#855f3b"
+myFocusedBorderColor = "#dfaf8f"
 myBorderWidth = 1
 
 tabConfig = defaultTheme {
     activeBorderColor = "#000000",
-    activeTextColor = "Wheat",
+    activeTextColor = "#dcdccc",
     activeColor = "#000000",
     fontName = "-misc-tamsyn-medium-r-normal--9-65-100-100-c-50-iso8859-1",
     inactiveBorderColor = "#000000",
-    inactiveTextColor = "#424242",
+    inactiveTextColor = "#1e2320",
     inactiveColor = "#000000",
 		decoHeight = 13
 }
 
 -- xmobar theme
-xmobarTitleColor = "#a8784b"
-xmobarCurrentWorkspaceColor = "Wheat"
+xmobarTitleColor = "#dca3a3"
+xmobarCurrentWorkspaceColor = "#dcdccc"
 
 -- bindings
 -- mod1Mask is left alt
