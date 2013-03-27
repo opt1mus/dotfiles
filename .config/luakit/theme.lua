@@ -26,8 +26,8 @@ theme.notif_bg = "#FFF"
 -- Menu colours
 theme.menu_fg                   = "#777777"
 theme.menu_bg                   = "#3f3f3f"
-theme.menu_selected_fg          = "#888888"
-theme.menu_selected_bg          = "#285577"
+theme.menu_selected_fg          = "#dcdccc"
+theme.menu_selected_bg          = "#506070"
 theme.menu_title_bg             = "#4f4f4f"
 theme.menu_primary_title_fg     = "#1f1f1f"
 theme.menu_secondary_title_fg   = "#1f1f1f"
@@ -40,7 +40,7 @@ theme.proxy_inactive_menu_bg    = '#FFF'
 
 -- Statusbar specific
 theme.sbar_fg         = "#4f4f4f"
-theme.sbar_bg         = "black"
+theme.sbar_bg         = "#000"
 
 -- Downloadbar specific
 theme.dbar_fg         = "#fff"
@@ -49,14 +49,14 @@ theme.dbar_error_fg   = "#F00"
 
 -- Input bar specific
 theme.ibar_fg           = "#777777"
-theme.ibar_bg           = "#1f1f1f"
+theme.ibar_bg           = "#2f2f2f"
 
 -- Tab label
-theme.tab_fg            = "#888"
-theme.tab_bg            = "#222"
+theme.tab_fg            = "#dcdccc"
+theme.tab_bg            = "#1e2320"
 theme.tab_ntheme        = "#ddd"
 theme.selected_fg       = "#fff"
-theme.selected_bg       = "#285577"
+theme.selected_bg       = "#506070"
 theme.selected_ntheme   = "#ddd"
 theme.loading_fg        = "#33AADD"
 theme.loading_bg        = "#000"
