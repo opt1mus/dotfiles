@@ -38,3 +38,6 @@ myip() { curl -s http://ifconfig.me/ ;}
 
 # sprunge
 sprunge() { $@ | curl -F 'sprunge=<-' sprunge.us ;}
+
+# ix.io
+ix() { $@ | curl -F 'f:1=<-' ix.io ;}
