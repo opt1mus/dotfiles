@@ -11,9 +11,11 @@ ln -sfn $XDG_RUNTIME_DIR/webkit ~/.local/share/webkit
 ln -sf $XDG_RUNTIME_DIR/cookies.db ~/.local/share/luakit/cookies.db
 ln -sf $XDG_RUNTIME_DIR/history.db ~/.local/share/luakit/history.db
 
-xset -b
+
+hsetroot -center images/haskell-pattern.png -tint '#dfaf8f' &
+xset -b &
 xset +fp /usr/share/fonts/local
-xset fp rehash
+xset fp rehash &
 xsetroot -cursor_name left_ptr &
 unclutter -idle 2 -jitter 2 -root &
 urxvtd -q -o -f &
