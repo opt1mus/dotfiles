@@ -6,7 +6,7 @@ local theme = {}
 
 -- Default settings
 theme.font = "tamsyn normal 5"
-theme.fg   = "#855f3b"
+theme.fg   = "#dcdccc"
 theme.bg   = "#1f1f1f"
 
 -- Genaral colours
