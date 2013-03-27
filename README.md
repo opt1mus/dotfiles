@@ -1,4 +1,4 @@
 ## Arch Linux with XMonad
 
 ### Typical desktop:
-![systemd-analyze](http://ompldr.org/taHdteg)
+![systemd-analyze](http://ompldr.org/vaHdteg)
