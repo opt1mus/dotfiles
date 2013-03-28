@@ -6,7 +6,7 @@ local theme = {}
 
 -- Default settings
 theme.font = "tamsyn normal 5"
-theme.fg   = "#dcdccc"
+theme.fg   = "#709080"
 theme.bg   = "#1f1f1f"
 
 -- Genaral colours
@@ -24,13 +24,13 @@ theme.notif_fg = "#444"
 theme.notif_bg = "#FFF"
 
 -- Menu colours
-theme.menu_fg                   = "#777777"
+theme.menu_fg                   = "#dcdccc"
 theme.menu_bg                   = "#3f3f3f"
-theme.menu_selected_fg          = "#dcdccc"
+theme.menu_selected_fg          = "#f8f8f2"
 theme.menu_selected_bg          = "#506070"
 theme.menu_title_bg             = "#4f4f4f"
-theme.menu_primary_title_fg     = "#1f1f1f"
-theme.menu_secondary_title_fg   = "#1f1f1f"
+theme.menu_primary_title_fg     = "#000000"
+theme.menu_secondary_title_fg   = "#000000"
 
 -- Proxy manager
 theme.proxy_active_menu_fg      = '#000'
@@ -39,8 +39,8 @@ theme.proxy_inactive_menu_fg    = '#888'
 theme.proxy_inactive_menu_bg    = '#FFF'
 
 -- Statusbar specific
-theme.sbar_fg         = "#4f4f4f"
-theme.sbar_bg         = "#000"
+theme.sbar_fg         = "#709080"
+theme.sbar_bg         = "#2f2f2f"
 
 -- Downloadbar specific
 theme.dbar_fg         = "#fff"
@@ -48,11 +48,11 @@ theme.dbar_bg         = "#000"
 theme.dbar_error_fg   = "#F00"
 
 -- Input bar specific
-theme.ibar_fg           = "#777777"
+theme.ibar_fg           = "#709080"
 theme.ibar_bg           = "#2f2f2f"
 
 -- Tab label
-theme.tab_fg            = "#dcdccc"
+theme.tab_fg            = "#709080"
 theme.tab_bg            = "#1e2320"
 theme.tab_ntheme        = "#ddd"
 theme.selected_fg       = "#fff"
