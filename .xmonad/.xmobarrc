@@ -12,7 +12,7 @@ Config { font = "-misc-tamsyn-medium-r-normal--9-65-100-100-c-50-iso8859-1"
 										]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "%StdinReader% }{%cpufreq% %cpu% | %memory% | %wlp3s0% | %EGHI% | <fc=Wheat>%date%</fc>"
+       , template = "%StdinReader% }{%cpufreq% %cpu% | %memory% | %wlp3s0% | %EGHI% | <fc=#dcdccc>%date%</fc>"
        }
 
 -- vim: filetype=haskell
