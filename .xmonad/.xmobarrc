@@ -1,8 +1,8 @@
-Config { font = "-misc-tamsyn-medium-r-normal--9-65-100-100-c-50-iso8859-1"
-       , bgColor = "#1e2320"
+Config { font = "-misc-tamsyn-medium-r-normal--12-87-100-100-c-60-iso8859-1"
+       , bgColor = "#506070"
        , fgColor = "#dcdccc"
        , position = Top
-       , commands = [ Run Weather "EGHI" ["-t", "EGHI: <tempC>C <tempF>F","-L","18","-H","25","--normal","#dcdccc","--high","#dca3a3","--low","#dcdccc"] 18000
+       , commands = [ Run Weather "EGHI" ["-t", "EGHI: <tempC>C","-L","18","-H","25","--normal","#dcdccc","--high","#dca3a3","--low","#dcdccc"] 18000
                     , Run CpuFreq ["-t","<cpu0>","-L","0","-H","2","-l","#dcdccc","-n","#dcdccc","-h","#dca3a3"] 50
 										, Run Cpu ["-L","3","-H","50","--normal","#dcdccc","--high","#dca3a3","--low","#dcdccc","-t","<total>%"] 20
                     , Run Memory ["-t","Mem: <used>M","-L","128","-H","512","--normal","#dcdccc","--high","#dca3a3","--low","#dcdccc"] 50
