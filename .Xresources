@@ -2,8 +2,8 @@
 *scrollBar:    false
 
 ! -- colors
-*background:             #2f2f2f
-*foreground:             #f8f8f2
+*background:             #3f3f3f
+*foreground:             #dcdccc
 *cursorColor:            #83c048
 *highlightColor:         #444444
 *underlineColor:         #999999
