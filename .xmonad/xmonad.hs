@@ -82,7 +82,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
 
   -- dmenu
   , ((modMask, xK_d),
-     spawn "dmenu_run -fn -misc-tamsyn-medium-r-normal--9-65-100-100-c-50-iso8859-1")
+     spawn "dmenu_run -b -fn -misc-tamsyn-medium-r-normal--12-87-100-100-c-60-iso8859-1")
 
   -- weechat
 	, ((modMask, xK_i),
