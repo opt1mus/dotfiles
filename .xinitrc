@@ -11,8 +11,6 @@ ln -sfn $XDG_RUNTIME_DIR/webkit ~/.local/share/webkit
 ln -sf $XDG_RUNTIME_DIR/cookies.db ~/.local/share/luakit/cookies.db
 ln -sf $XDG_RUNTIME_DIR/history.db ~/.local/share/luakit/history.db
 
-
-hsetroot -center images/haskell-pattern.png -tint '#dfaf8f' &
 xset -b &
 xset +fp /usr/share/fonts/local
 xset fp rehash &
