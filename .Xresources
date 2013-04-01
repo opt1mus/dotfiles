@@ -8,7 +8,7 @@
 *highlightColor:         #444444
 *underlineColor:         #999999
 
-#include '.config/xcolors/zenburn'
+#include ".config/xcolors/zenburn"
 
 URxvt.font:     -misc-tamsyn-medium-r-normal--12-87-100-100-c-60-iso8859-1
 URxvt.boldfont: -misc-tamsyn-bold-r-normal--12-87-100-100-c-60-iso8859-1
