@@ -4,8 +4,8 @@
 ! -- colors
 *background:             #3f3f3f
 *foreground:             #dcdccc
-*cursorColor:            #83c048
-*highlightColor:         #444444
+*cursorColor:            #506070
+*highlightColor:         #555666
 *underlineColor:         #999999
 
 #include ".config/xcolors/zenburn"
