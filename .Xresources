@@ -13,6 +13,12 @@
 URxvt.font:     -misc-tamsyn-medium-r-normal--12-87-100-100-c-60-iso8859-1
 URxvt.boldfont: -misc-tamsyn-bold-r-normal--12-87-100-100-c-60-iso8859-1
 
+! -- x48 fonts
+X48.*connectionFont:  -*-tamsyn-bold-r-normal--12-*-*-*-*-*-iso8859-1
+X48.*largeLabelFont:  -*-tamsyn-bold-r-normal--17-*-*-*-*-*-iso8859-1
+X48.*mediumLabelFont: -*-tamsyn-bold-r-normal--14-*-*-*-*-*-iso8859-1
+X48.*smallLabelFont:  -*-tamsyn-bold-r-normal--12-*-*-*-*-*-iso8859-1
+
 ! -- word skip
 URxvt.keysym.Control-Up:      \033[1;5A
 URxvt.keysym.Control-Down:    \033[1;5B
