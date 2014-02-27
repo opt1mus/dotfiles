@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias grep='grep --color=auto'
-alias ping='ping -c 3'
+alias ping='ping -c 4'
 alias vim='vim -X'
 
 # list - maintain order
@@ -34,10 +34,13 @@ PS1='>'
 PS2='\\'
 
 # external IP
-myip() { curl -s http://ifconfig.me/ ;}
+myip() { dig myip.opendns.com @resolver1.opendns.com +short ;}
 
-# sprunge
+# cli pastebins
 sprunge() { $@ | curl -F 'sprunge=<-' sprunge.us ;}
-
-# ix.io
 ix() { $@ | curl -F 'f:1=<-' ix.io ;}
+clbin() { $@ | curl -F 'clbin=<-' https://clbin.com ;}
+clbin-scrot() { scrot -e 'curl -F "clbin=@$f" https://clbin.com' ;}
+
+# update AdBlock easylists
+bollock() { wget https://easylist-downloads.adblockplus.org/{easy{list,privacy},fanboy-annoyance}.txt -nv -N -P $HOME/.local/share/luakit/adblock/ ;}
